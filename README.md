@@ -27,8 +27,8 @@
 
 ## Installation / Setup  
 1. Clone or download this repository  
-2. Import the `.sql` schema into your MySQL/MariaDB database  
-3. Update config file with database credentials  
+2. Import the `database.sql` schema into your MySQL/MariaDB database  
+3. Update the config.inc file with your database credentials  
 4. Deploy the PHP backend to a server (Apache / Nginx / etc.)  
 5. Open the frontend in your browser and login / register  
 
