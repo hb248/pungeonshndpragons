@@ -1,0 +1,487 @@
+nav {
+    background: var(--col1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    width: 100vw;
+}
+
+.navElementWrapper p {
+    /*! margin-left: 1em; */
+    color: var(--col13);
+}
+
+.navElementWrapper form {
+    /*! margin-right: 1em; */
+}
+
+.navElementWrapper {
+    display: flex;
+    /*! justify-content: center; */
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+
+#nEW1 {
+    justify-content: start;
+    padding-left:1em;
+}
+
+#nEW2 {
+    justify-content: center;
+}
+
+#nEW3 {
+    justify-content: end;
+    padding-right:1em;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    width: 100vw;
+    /*! background: #777620; */
+    color: var(--col1);
+}
+
+header > * {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    /*! background: #c63e4d; */
+}
+
+main {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    height: 69vh;
+    width: 100vw;
+    /*! background: #b51f2d; */
+    color: var(--col1);
+}
+
+#HostField {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    /*! background: #5c33d6; */
+}
+
+#BattleField {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 34%;
+    /*! background: #519fb1; */
+}
+
+#OppoField {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 33%;
+    /*! background: #d8ba1f; */
+}
+
+.ChampionBox {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 25%;
+    width: 70%;
+    /*! background: #f0f0f0; */
+    text-shadow: 0px 0px 10px var(--col1);
+    transition: 0.3s
+}
+
+.ChampionMeat {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    height: 75%;
+    width: 100%;
+    background: #21cc8f;
+    border: solid 2px var(--col1);
+    /*! box-shadow: inset 0px 0px 20px 2px var(--col13); */
+}
+
+.ChampName {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /*! background: #8e8686; */
+    height: 25%;
+    width: 100%;
+}
+
+.ChampName p {
+    margin-left: 0.6em;
+}
+
+.ChampPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 29%;
+    background: var(--col1);
+    /*! box-shadow: inset 0px 0px 20px 2px var(--col13); */
+}
+
+.ChampPic img {
+    width: 100%;
+    height: 100%;
+}
+
+.ChampUI {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+    width: 71%;
+    background: var(--col15);
+    box-shadow: inset 0px 0px 0px 1px var(--col13), inset 0px 0px 20px 2px var(--col1);
+}
+
+.upper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    /*! background: #1854f4; */
+    flex-flow: column;
+}
+
+.healthBar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 50%;
+    width: 96%;
+    background: #f0f0f0;
+    border: solid 2px var(--col1);
+    box-shadow: inset 0px 0px 4px 1px var(--col1);
+}
+
+.healthBarFill {
+    height: 100%;
+    /*! width: 75%; */
+    background: var(--col3);
+    box-shadow: inset 0px 0px 4px 1px var(--col4);
+    /*! padding: 2px 0; */
+}
+
+.healthValue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 20%;
+    /*! background: #cab042; */
+    text-shadow: 0px 0px 10px var(--col1);
+    color: var(--col13);
+}
+
+.lower {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    /*! background: #36af0d; */
+    font-family: var(--h-font);
+    font-size: var(--h1-font-size);
+    text-shadow: 1px 1px var(--col13);
+}
+
+.ArmorIcon img {
+    width: 100%;
+    height: auto;
+}
+
+.DmgIcon img {
+    width: 100%;
+    height: auto;
+}
+
+.HitIcon img {
+    width: 100%;
+    height: auto;
+}
+
+.lower > * {
+    height: 95%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Footer Zone */
+
+footer {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 17vh;
+    width: 100vw;
+    background: dodgerblue;
+}
+
+#Log {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+    width: 50%;
+    background: #8e8686;
+    box-shadow: inset 0px 0px 0px 1px var(--col13), 0px -2px 0px 0px var(--col1);
+}
+
+#Chat {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+    width: 50%;
+    background: #f0f0f0;
+    /*! border: 2px solid var(--col1); */
+    box-shadow: inset 0px 0px 0px 1px var(--col13), 0px -2px 0px 0px var(--col1);
+    /*! background-image: url("../images/listbg.png"); */
+    /*! background-repeat: repeat; */
+    /*! background-blend-mode: overlay; */
+    background: var(--col16);
+}
+
+#ChatContent {
+    width: calc(100% - 4px);
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#LogContent {
+    width: calc(100% - 4px);
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+/* Damit man mit JQuery show/hide machen kann */
+#ActionBoxJQ {
+    height: 20%;
+    width: 80%;
+}
+
+#A1JQ, #A2JQ, #A3JQ, #A4JQ, #ActionBoxJQ {
+    display: none;
+}
+
+#ActionBox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row;
+    height: 100%;
+    width: 100%;
+    /*! background: #f0f0f0; */
+}
+
+#ActionBox p {
+    text-shadow: 0px 0px 10px var(--col5);
+    color: var(--col1);
+}
+
+#A1 {
+    background: var(--col4);
+    background-image: url("../images/listbg.png");
+    background-repeat: repeat;
+    background-blend-mode: lighten;
+}
+
+#A2 {
+    background: var(--col5);
+    background-image: url("../images/listbg.png");
+    background-repeat: repeat;
+    background-blend-mode: lighten;
+}
+
+#A3 {
+    background: var(--col6);
+    background-image: url("../images/listbg.png");
+    background-repeat: repeat;
+    background-blend-mode: lighten;
+}
+
+#A4 {
+    background: var(--col7);
+    background-image: url("../images/listbg.png");
+    background-repeat: repeat;
+    background-blend-mode: lighten;
+}
+
+/* Als Platzhalter damit man die boxen einzeln ein-/ausblenden kann */
+.A1234JQPH {
+    width: 4em;
+    height: 4em;
+}
+
+/* Damit man mit JQuery show/hide machen kann */
+.A1234JQ {
+    width: 100%;
+    height: 100%;
+}
+
+.A1234 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*! background: burlywood; */
+    width: 100%;
+    height: 100%;
+    /*! border: solid 2px black; */
+    margin-left: -2px;
+    margin-top: -2px;
+    font-family: var(--h-font);
+    font-size: var(--h2-font-size);
+    border: 2px solid var(--col1);
+    box-shadow: inset 0px 0px 0px 1px var(--col13);
+    /*! background-image: url("../images/listbg.png"); */
+    /*! background-repeat: repeat; */
+    /*! background-blend-mode: lighten; */
+}
+
+.A1234 p {
+    margin: 0;
+    padding: 0;
+}
+
+#StepCounter {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    min-height: fit-content;
+    height: 90%;
+    min-width: fit-content;
+    padding: 0 6%; /* 6% = 3% padding left + 3% padding right */
+    max-width: 100%;
+    /*! border-radius: 999px; */
+}
+
+#hiddenData {
+    display: none;
+}
+
+.playerField {
+    /*! background: var(--col5); */ /* !important;*/
+    /*! box-shadow: inset 0px 0px 0px 1px var(--col13), inset 0px 0px 20px 20px var(--col13); */
+    background: repeating-linear-gradient( 45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 135px, var(--col5) 130px, var(--col5) 140px );
+}
+
+.myTurnHighlight {
+    /*! border: solid 2px #d6c666; */
+    /*! box-shadow: inset 0px 0px 0px 2px var(--col5), inset 0px 0px 5px 1px var(--col1); */
+    background: var(--col5);
+    box-shadow: 0px 2px 0px 2px var(--col7);
+    background-image: url("../images/listbg.png");
+    background-repeat: repeat;
+    background-blend-mode: lighten;
+    border-inline: solid 2px var(--col1);
+}
+
+.selected {
+    border-inline: solid 2px var(--col1);
+    box-shadow: 0px 0px 0px 2px var(--col7), inset 5px 5px 10px 4px var(--col7), 0px -2px 2px 0px var(--col7);
+}
+
+#ChatTitle {
+    height: 26px;
+    min-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: calc(100% - 2em);
+    padding-left: 2em;
+    background: var(--col13);
+}
+
+#ChatContent {
+    height: calc(100% - 56px);
+    padding: 2px;
+    color: var(--col13);
+    box-shadow: inset 0px 1px 0px 0px var(--col1), inset 0px 2px 4px -1px var(--col13);
+}
+
+#chatForm {
+    height:26px;
+    width: 100%;
+    background: var(--col13);
+    box-shadow: 0px -1px 0px 0px var(--col1);
+}
+
+#chatSend {
+    /*! height:100%; */
+    width:fit-content;
+    min-width: 7%;
+}
+
+#chatInput {
+    /*! height:100%; */
+    /*! min-width: 30vw; */
+    width: 91%;
+}
+
+#LogTitle {
+    height: 26px;
+    min-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 2em);
+    padding-left: 0em;
+    padding-right: 2em;
+    background: var(--col13);
+}
+
+#LogContent {
+    height: calc(100% - 30px);
+    padding: 2px;
+    background: var(--col16);
+    color: var(--col13);
+    box-shadow: inset 0px 1px 0px 0px var(--col1), inset 0px 2px 4px -1px var(--col13);
+}
+
+body {
+    background-image: url("../images/battlebg.png");
+    background-repeat: repeat;
+    background-blend-mode: overlay;
+}
+
+.ChampionBox:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+    transition: 0.3s
+}

@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: center;
+    height: 35vh;
+    width: 100vw;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+main {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 55vh;
+    width: 100vw;
+    flex-flow: column;
+    gap: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 10vh;
+    width: 100vw;
+}
+
+footer p {
+    margin: 1em;
+}
+
+.formBox {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    min-width: 15vw;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.formBox form {
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    gap: 0.2em;
+}
+
+.formBox form input {
+    font-size: var(--p-font-size);
+}
+
+.formBox form input[type="submit"] {
+    min-width: 75%;
+    margin-top: 0.5em;
+}
+
+.formBox h2 {
+    margin-bottom: 0.5em;
+}
+
+.formBox p:first-of-type {
+    margin-top: 1em;
+}
+
+body {
+    background-image: url("../images/portalbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: inset 0px 0px 0px 2px var(--col1), inset 0px 0px 0px 3px var(--col13), inset 0px 0px 100px 50px var(--col1);
+}
+
+#LoginBox {
+    border: 2px solid var(--col13);
+    box-shadow: inset 0px 0px 0px 1px var(--col1);
+    background: var(--col13);
+}
+
+#RegisBox {
+    border: 2px solid var(--col13);
+    box-shadow: inset 0px 0px 0px 1px var(--col1);
+    background: var(--col13);
+}
+
+#Welcome{
+    color: var(--col3);
+    text-shadow: 1px 1px var(--col13), 0px 0px 10px var(--col1);
+}
+
+footer p {
+    color: var(--col13);
+}
+
+

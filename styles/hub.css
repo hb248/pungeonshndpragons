@@ -1,0 +1,192 @@
+nav {
+    background: var(--col1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    width: 100vw;
+}
+
+nav p {
+    margin-left: 1em;
+    color: var(--col13);
+}
+
+nav form {
+    margin-right: 1em;
+}
+
+#Meat {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    height: 94vh;
+    width: 100vw;
+}
+
+#Left {
+    background: var(--col1);
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    height: 100%;
+    width: 80%;
+    background-image: url("../images/listbg.png");
+    background-repeat: repeat;
+    /*transform: rotate(180deg);*/
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 82%;
+    width: 100%;
+}
+
+section {
+    /*! background: var(--col7); */
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    height: 95%;
+    width: 45%;
+    border: 2px solid var(--col1);
+    box-shadow:inset 0px 0px 0px 1px var(--col13);
+}
+
+aside {
+    background: var(--col13);
+    display: flex;
+    height: 100%;
+    width: 20%;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    box-shadow: inset 0px 0px 0px 2px var(--col5), inset 0px 0px 20px 2px var(--col1);
+}
+
+aside h2 {
+    margin-top: 1em;
+}
+
+aside p {
+    margin-top: 2em;
+}
+
+#StatBox {
+    background: var(--col5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 0.2em;
+    border: 2px solid var(--col1);
+    box-shadow: inset 0px 0px 0px 1px var(--col13);
+    /*! color: var(--col13); */
+}
+
+#StatBox p {
+    margin-top: 0;
+    padding: 0.2em 0.4em; /* Top/Bottom Left/Right */
+}
+
+#Lefty {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: start;
+    width: 50%;
+    overflow-x: hidden;
+}
+
+#Righty {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: end;
+    width: 50%;
+    overflow-x: hidden;
+}
+
+.GameHeader {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GameList {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5em;
+    overflow-y: auto;
+}
+
+.Game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+    width: 95%;
+    background: var(--col13);
+    border: 2px solid var(--col1);
+    transition: 0.3s;
+}
+
+#JoinGame {
+    background: var(--col7t);
+    background-image: url("../images/listbg.png");
+    background-repeat: repeat;
+    background-blend-mode: lighten;
+}
+
+#ContGame {
+    background: var(--col3t);
+    background-image: url("../images/listbg.png");
+    background-repeat: repeat;
+    background-blend-mode: lighten;
+}
+
+.infoSide {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnSide {
+    display: flex;
+    height: 100%;
+    width: 30%;
+    justify-content: end;
+    align-items: center;
+}
+
+header form Input {
+    width: 10em;
+    height: 3em;
+}
+
+.Game:hover{
+    filter: brightness(1.1);
+    transition: 0.3s;
+}
+

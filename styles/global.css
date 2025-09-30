@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Jac';
+    src: url('../fonts/Jacquard12-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lex';
+    src: url('../fonts/Lexend-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    --col1: rgb(26, 28, 44);
+    --col2: rgb(93, 39, 93);
+    --col3: rgb(177, 62, 83);
+    --col4: rgb(239, 125, 87);
+    --col5: rgb(255, 205, 117);
+    --col6: rgb(167, 240, 112);
+    --col7: rgb(56, 183, 100);
+    --col8: rgb(37, 113, 121);
+    --col9: rgb(41, 54, 111);
+    --col10: rgb(59, 93, 201);
+    --col11: rgb(65, 166, 246);
+    --col12: rgb(115, 239, 247);
+    --col13: rgb(244, 244, 244);
+    --col14: rgb(148, 176, 194);
+    --col15: rgb(86, 108, 134);
+    --col16: rgb(51, 60, 87);
+
+    --col1t: rgba(26, 28, 44, 0.5);
+    --col2t: rgba(93, 39, 93, 0.5);
+    --col3t: rgba(177, 62, 83, 0.96);
+    --col7t: rgba(56, 183, 100, 0.96);
+
+    --a-color: var(--col10);
+    --h-color: var(--col1);
+    --p-color: var(--col1);
+
+    --h-font: 'Jac', 'Brush Script MT', 'Open sans', sans-serif;
+    --p-font: 'Lex', 'Open Sans', sans-serif; /* Auch Default Font */
+
+    --h1-font-size: 3em;
+    --h2-font-size: 2em;
+    --p-font-size: 1em;
+
+    --h1-line-height: 1.5;
+    --h2-line-height: 1.5;
+    --p-line-height: 1.5;
+
+
+}
+
+
+
+html {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--p-font);
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: var(--col13);
+}
+
+h1, h2 {
+    margin: 0;
+    font-family: var(--h-font);
+    color: var(--h-color);
+    text-shadow: 1px 1px var(--col13);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+    line-height: var(--h1-line-height);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+    line-height: var(--h2-line-height);
+}
+
+p {
+    margin: 0;
+    font-family: var(--p-font);
+    font-size: var(--p-font-size);
+    line-height: var(--p-line-height);
+}
+
+a {
+    text-decoration: underline;
+    color: var(--a-color);
+    cursor: pointer;
+}
+
+a:hover {
+    filter: brightness(1.5);
+}
+
+#messageDialog {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 12.5%;
+    width: 75%;
+    height: 5%;
+    z-index: 1000;
+    /*background: aliceblue;*/
+    justify-content: center;
+    align-items: center;
+}
+
+#messageContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.errorMessage {
+    border: 1px solid var(--col4);
+    background: var(--col5);
+    color: var(--col3);
+    /*border-radius: 1em;*/
+    align-content: center;
+    padding: 0.7em;
+    width: fit-content;
+    opacity: 95%;
+    box-shadow: inset 0px 0px 0px 1px var(--col13);
+}
+
+.successMessage {
+    border: 2px solid var(--col7);
+    background: var(--col6);
+    color: var(--col8);
+    /*! border-radius: 1em; */
+    align-content: center;
+    padding: 0.7em;
+    width: fit-content;
+    opacity: 95%;
+    box-shadow: inset 0px 0px 0px 1px var(--col13);
+}
+
+Input {
+    border: 2px solid var(--col13);
+    font-family: var(--p-font);
+    font-size: var(--p-font-size);
+    background: var(--col13);
+    transition: 0.3s;
+    box-shadow:inset 0px 0px 0px 1px var(--col1);
+}
+
+Input:hover {
+    border: 2px solid var(--col5);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+nav {
+    /*! inline-border-bottom: 2px solid red; */
+}
+
+
+
